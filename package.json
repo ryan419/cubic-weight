@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha *.spec.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "./node_modules/eslint/bin/eslint.js *.js"
   },
   "author": "ryan",
   "license": "ISC",
@@ -15,6 +16,9 @@
     "rxjs": "^6.3.3"
   },
   "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-mocha": "^5.2.0",
     "mocha": "^5.2.0"
   }
 }

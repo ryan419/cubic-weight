@@ -1,7 +1,9 @@
 const axios = require('axios');
 const { empty, from } = require('rxjs');
-const { expand, map, reduce, takeWhile, tap } = require('rxjs/operators');
-const getAverageCubicWeight = require('./cubic-weight')
+const {
+  expand, map, reduce, takeWhile
+} = require('rxjs/operators');
+const getAverageCubicWeight = require('./cubic-weight');
 
 const baseUrl = 'http://wp8m3he1wt.s3-website-ap-southeast-2.amazonaws.com';
 
