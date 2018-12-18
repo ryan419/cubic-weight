@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/mocha/bin/mocha *.spec.js",
     "start": "node index.js"
   },
   "author": "ryan",
@@ -13,5 +13,8 @@
     "axios": "^0.18.0",
     "decimal.js": "^10.0.2",
     "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
